@@ -1,0 +1,18 @@
+{
+  "name": "@versemate/red-letter",
+  "version": "0.1.0",
+  "description": "Red-letter (words of Jesus) verse dataset — every Bible verse containing words spoken by Jesus, keyed by canonical bookId (1=Genesis … 66=Revelation) → chapter → verse numbers. Translation-independent (World English Bible \\wj markers). Shared by verse-mate-web and verse-mate-mobile.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "private": true
+}
